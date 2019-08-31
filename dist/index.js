@@ -29,11 +29,11 @@ var script = {
     },
     successUrl: {
       type: String,
-      default: window.location.href
+      default: ''
     },
     cancelUrl: {
       type: String,
-      default: window.location.href
+      default: ''
     },
     submitType: {
       type: String,
@@ -236,11 +236,11 @@ __vue_render__._withStripped = true;
   /* functional template */
   const __vue_is_functional_template__ = false;
   /* style inject */
-  
-  /* style inject SSR */
-  
 
-  
+  /* style inject SSR */
+
+
+
   var VueStripeCheckout = normalizeComponent_1(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
