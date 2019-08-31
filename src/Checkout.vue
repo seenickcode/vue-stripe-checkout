@@ -65,12 +65,12 @@ export default {
       }
     }
   },
-  created () {
-    const script = document.createElement('script');
-    script.id = '_stripe-redirect-to-checkout';
-    script.src = 'https://js.stripe.com/v3';
-    document.querySelector('head').append(script);
-  },
+  // created () {
+  //   const script = document.createElement('script');
+  //   script.id = '_stripe-redirect-to-checkout';
+  //   script.src = 'https://js.stripe.com/v3';
+  //   document.querySelector('head').append(script);
+  // },
   computed: {
     key () {
       return this.publishableKey;
